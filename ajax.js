@@ -1,4 +1,3 @@
-document.getElementById('btn').addEventListener('click',loadUsers);
 function loadUsers(){
     var xhr= new XMLHttpRequest();
     xhr.open('GET','https://reqres.in/api/users',true);
